@@ -178,7 +178,7 @@ Para assegurar que os botões se expandam proporcionalmente ao redimensionar a j
 
 
 
-- 1 Clone o repositório (se aplicável).
+- 1 Clone o repositório.
 - 2 Execute o script Python.
 
 ```bash
