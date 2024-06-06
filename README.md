@@ -25,6 +25,7 @@ Os botões são organizados em uma grade 4x5 (4 colunas e 5 linhas) e possuem as
 - Comandos: Cada botão possui um comando associado que chama a - função on_button_click passando o texto do botão como argumento.
 
 ## Distribuição dos botões:
+
 <style>
   table {
     width: 100%;
