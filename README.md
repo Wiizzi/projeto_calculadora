@@ -26,41 +26,9 @@ Os botões são organizados em uma grade 4x5 (4 colunas e 5 linhas) e possuem as
 
 ## Distribuição dos botões:
 
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: 'Arial', sans-serif;
-    margin: 20px 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  }
-  th, td {
-    border: 1px solid #000;
-    padding: 12px;
-    text-align: left;
-  }
-  th {
-    background-color: #ff6600;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-  td {
-    background-color: #333;
-    color: #fff;
-    font-size: 13px;
-  }
-  tr:nth-child(even) td {
-    background-color: #444;
-  }
-  tr:hover td {
-    background-color: #555;
-  }
-</style>
-
 <h2>Tabela de Botões da Calculadora</h2>
 
-<p>A tabela abaixo descreve a disposição dos botões na interface da calculadora, incluindo o texto exibido em cada botão, seu tipo e sua função.</p>
+<p>A tabela abaixo descreve a disposição dos botões na interface.</p>
 
 <table>
   <tr>
