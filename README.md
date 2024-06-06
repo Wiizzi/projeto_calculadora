@@ -165,7 +165,7 @@ Os botões são organizados em uma grade 4x5 (4 colunas e 5 linhas) e possuem as
     - Se o botão clicado for =, a expressão no display é avaliada utilizando a função eval(). Se a avaliação falhar, o display mostrará "Erro".
     - Para outros botões, o texto do botão é adicionado à expressão atual no display.
 
-## Grid Configuration
+## Configuração da grade
 Para assegurar que os botões se expandam proporcionalmente ao redimensionar a janela:
 
 * Linhas: master.grid_rowconfigure(i, weight=1) para i de 0 a 4
