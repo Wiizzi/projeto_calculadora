@@ -482,7 +482,7 @@ git clone https://github.com/Wiizzi/projeto_calculadora/blob/main/calculadora_v1
 # Author
 Gabriel Coelho Alves
 
-- Connect with me on LinkedIn!
+- [Connect with me on LinkedIn!](https://www.linkedin.com/in/gabriel-coelho-alves/)
 ![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188)
 ![KakashiNarutoGIF](https://github.com/Wiizzi/projeto_calculadora/assets/139828978/f8e0d504-bca3-48b3-9e94-c524ddf7979a)
 
