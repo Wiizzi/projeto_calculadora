@@ -1,5 +1,3 @@
-Aqui está o README atualizado para o seu projeto de calculadora com base nas alterações encontradas na versão 1.8 do código:
-
 ---
 
 # PROJETO CALCULADORA 🧮
