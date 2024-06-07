@@ -1,5 +1,3 @@
----
-
 # PROJETO CALCULADORA 🧮
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Wiizzi/projeto_calculadora/blob/main/LICENSE) 
 
