@@ -1,6 +1,7 @@
 # PROJETO CALCULADORA 🧮
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Wiizzi/projeto_calculadora/blob/main/LICENSE) 
 
+![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188) 
 # Sobre o projeto
 
 O projeto consiste em uma calculadora básica desenvolvida utilizando a biblioteca Tkinter do Python. A interface gráfica permite realizar operações matemáticas básicas (adição, subtração, multiplicação e divisão) [Calculadora](https://github.com/Wiizzi/projeto_calculadora/blob/main/calculadora_v1.8.pyw).
@@ -11,6 +12,10 @@ A interface da calculadora é composta por um display e uma grade de botões. O 
  ![Calculadora Janela](https://github.com/Wiizzi/projeto_calculadora/blob/main/assets/calculadora_janela.png)
 
  ![Calculadora Tela Cheia](https://github.com/Wiizzi/projeto_calculadora/blob/main/assets/calculadora_tela_cheia.png)
+ 
+---
+# Nova versão: Aba histórico de cálculo
+![Historico_janela](https://github.com/Wiizzi/projeto_calculadora/blob/main/assets/janela_historico.png)
 
 ### Display 
 - Widget: Entry
@@ -375,4 +380,250 @@ Gabriel Coelho Alves
 - [Conecte-se comigo no LinkedIn!](https://www.linkedin.com/in/gabriel-coelho-alves/)
 ---
 ![KakashiNarutoGIF](https://github.com/Wiizzi/projeto_calculadora/assets/139828978/f8e0d504-bca3-48b3-9e94-c524ddf7979a)
+
+![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188) 
+# English
+
+# CALCULATOR PROJECT 🧮
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Wiizzi/projeto_calculadora/blob/main/LICENSE) 
+
+![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188) 
+# About the project
+
+The project consists of a basic calculator developed using the Tkinter library in Python. The graphical interface allows performing basic mathematical operations (addition, subtraction, multiplication, and division) [Calculator](https://github.com/Wiizzi/projeto_calculadora/blob/main/calculadora_v1.8.pyw).
+
+## SOFTWARE Layout 🏠
+The calculator interface consists of a display and a grid of buttons. The display shows user input and the results of operations. The buttons allow the user to input numbers, operations, and calculate results.
+
+ ![Calculator Window](https://github.com/Wiizzi/projeto_calculadora/blob/main/assets/calculadora_janela.png)
+
+ ![Calculator Full Screen](https://github.com/Wiizzi/projeto_calculadora/blob/main/assets/calculadora_tela_cheia.png)
+ 
+---
+# New version: Calculation history tab
+![History_window](https://github.com/Wiizzi/projeto_calculadora/blob/main/assets/janela_historico.png)
+
+### Display 
+- Widget: Entry
+- Text variable: resultado_var (type StringVar)
+- Font: Arial, adjustable size
+- Background color: #1a1a1a
+- Text color: #ffd700
+- Attributes: justify="right", bd=0, highlightbackground="#1a1a1a", highlightcolor="#1a1a1a", insertbackground="#ffd700"
+
+### Buttons 
+The buttons are organized in a 4x5 grid (4 columns and 5 rows) and have the following characteristics:
+
+- Font: Arial, adjustable size
+- Background color: #363636
+- Text color: #ffd700
+- Active background color: #ffd700
+- Active text color: #363636
+- Commands: Each button has an associated command that calls the `update_display` function passing the button's text as an argument.
+
+## Buttons distribution:
+
+<h2>Calculator Buttons Table</h2>
+
+<p>The table below describes the button layout in the interface.</p>
+
+<table>
+  <tr>
+    <th>Row</th>
+    <th>Column</th>
+    <th>Text</th>
+    <th>Type</th>
+    <th>Function</th>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>0</td>
+    <td>7</td>
+    <td>Number</td>
+    <td>Insert number 7</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>1</td>
+    <td>8</td>
+    <td>Number</td>
+    <td>Insert number 8</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2</td>
+    <td>9</td>
+    <td>Number</td>
+    <td>Insert number 9</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3</td>
+    <td>/</td>
+    <td>Operator</td>
+    <td>Division</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>0</td>
+    <td>4</td>
+    <td>Number</td>
+    <td>Insert number 4</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>1</td>
+    <td>5</td>
+    <td>Number</td>
+    <td>Insert number 5</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>2</td>
+    <td>6</td>
+    <td>Number</td>
+    <td>Insert number 6</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>3</td>
+    <td>*</td>
+    <td>Operator</td>
+    <td>Multiplication</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>0</td>
+    <td>1</td>
+    <td>Number</td>
+    <td>Insert number 1</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>1</td>
+    <td>2</td>
+    <td>Number</td>
+    <td>Insert number 2</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2</td>
+    <td>3</td>
+    <td>Number</td>
+    <td>Insert number 3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>3</td>
+    <td>-</td>
+    <td>Operator</td>
+    <td>Subtraction</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Number</td>
+    <td>Insert number 0</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>1</td>
+    <td>.</td>
+    <td>Point</td>
+    <td>Insert decimal point</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>3</td>
+    <td>+</td>
+    <td>Operator</td>
+    <td>Addition</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>0</td>
+    <td>Clear</td>
+    <td>Function</td>
+    <td>Clear display</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>1</td>
+    <td>=</td>
+    <td>Function</td>
+    <td>Calculate result</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>2</td>
+    <td>←</td>
+    <td>Function</td>
+    <td>Delete last character</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>3</td>
+    <td>History</td>
+    <td>Function</td>
+    <td>Open calculation history</td>
+  </tr>
+</table>
+
+# Technologies used and code editor
+- Python
+- Tkinter
+- VScode
+---
+
+## Features
+### 'update_display' Function
+- Parameters: text (clicked button text)
+- Logic:
+    - If the clicked button is '=', evaluate the expression in the display using the `eval()` function. If evaluation fails, the display will show "Error".
+    - If the clicked button is '←', remove the last character from the expression.
+    - If the clicked button is 'Clear', clear the display.
+    - If the clicked button is 'History', open a new window with the calculation history.
+    - For other buttons, append the button text to the current expression in the display.
+
+### 'calculate' Function
+- Logic:
+    - Evaluate the mathematical expression in the display.
+    - Add the expression, result, and calculation time to the history.
+    - If evaluation fails, the display will show "Error".
+
+### 'show_history' Function
+- Logic:
+    - Opens a new window displaying the calculation history.
+    - Each item in the history is shown with the expression, result, and calculation time.
+
+## Grid configuration 🪟
+To ensure that buttons expand proportionally when resizing the window:
+
+* Rows: `master.grid_rowconfigure(i, weight=1)` for i from 0 to 6
+* Columns: `master.grid_columnconfigure(i, weight=1)` for i from 0 to 3
+
+  ---
+
+# How to run the project! 
+![RunGIF](https://github.com/Wiizzi/projeto_calculadora/assets/139828978/fa0f6fca-b219-4b5d-9f83-bd121c429cbe)
+
+- 1 Clone the repository.
+- 2 Run the Python script.
+
+```bash
+# clone repository
+git clone https://github.com/Wiizzi/projeto_calculadora/blob/main/calculadora_v1.8.pyw
+
+# run calculadora_v1.8.pyw
+```
+![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188) 
+
+# Author
+Gabriel Coelho Alves
+
+- Connect with me on LinkedIn!
+![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188)
+![KakashiNarutoGIF](https://github.com/Wiizzi/projeto_calculadora/assets/139828978/f8e0d504-bca3-48b3-9e94-c524ddf7979a)
+
 
