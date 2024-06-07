@@ -32,6 +32,7 @@ class Calculadora:
             self.botoes.append(botao)
             if texto not in ['Limpar', '=', '←', 'Histórico']:
                 master.bind(texto, lambda event, t=texto: self.atualizar_exibicao(t))  # Associa teclas numéricas e operacionais ao método de atualização
+
         # Associa a tecla "Enter" à função de cálculo
         master.bind("<Return>", lambda event: self.atualizar_exibicao('='))
         # Bloqueia o número "0" no início da expressão
@@ -78,8 +79,9 @@ class Calculadora:
             self.resultado_var.set(texto)
         else:
             if not self.resultado_bloqueado:  # Verifica se o resultado está bloqueado
-                # Concatena o texto atual com o texto novo
-                self.resultado_var.set(self.resultado_var.get() + texto)
+                # Permite apenas caracteres válidos (números, operadores e ponto decimal)
+                if texto in '0123456789+-*/.':
+                    self.resultado_var.set(self.resultado_var.get() + texto)
 
     def apagar_ultimo_caractere(self, event=None):
         self.resultado_var.set(self.resultado_var.get()[:-1])
